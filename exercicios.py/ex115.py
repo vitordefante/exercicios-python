@@ -1,4 +1,4 @@
-from exercicios.modulos import cadastro
+from modulos import cadastro
 import pickle
 
 pessoas = pickle.load(open("pessoas.dat", "rb"))
